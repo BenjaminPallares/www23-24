@@ -1,0 +1,116 @@
+body {
+      background-color: white;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 250px;
+}
+
+/* PARA VER AL FINAL */
+main {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    /* background-color: rgb(203, 224, 15); */
+}
+/* *********************** */
+
+h1 {
+    text-align: left;
+    color: rgb(210, 54, 54);
+}
+
+/* th {
+    column-span: all;
+    text-align: center;
+    width: 400px;
+} */
+
+h2,
+h3 {
+    text-align: left;
+    color: rgb(210, 54, 54);
+
+}
+
+td {
+    text-align:center;
+}
+
+.tabla1,
+.tabla2 {
+    background-color: gray;
+    /* width: 100%; */
+    padding-left: 10px;
+}
+
+.tabla1 td,
+.tabla2 td {
+    text-align: left;
+    padding-block: 10px;
+}
+
+.tabla1 .col1,
+.tabla2 .col1 {
+    width: 150px;
+}
+
+.tabla1 .col2,
+.tabla2 .col2 {
+    width: 300px;
+    font-weight: bolder;
+}
+
+.tabla3 .col1 {
+    width: 250px;
+}
+.tabla3 th {
+    color: red; 
+    text-align: left;    
+}
+
+.tabla3 .col2 {
+    width: 100px;
+}
+.tabla3 .col3 {
+    width: 200px;
+}
+
+.tabla3 .dato_col3 {
+    text-align: left;
+}
+
+.tabla3 .col4 {
+    width: 80px;
+}
+
+.tabla3 .dato_col4 {
+    text-align: centre;
+}
+
+.tabla4 {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.tabla4 th {
+    color: red;
+}
+
+.tabla4 .col1,
+.tabla4 .col2 {
+    width: 200px;
+    text-align: right;
+}
+
+.tabla4 .col2 {
+    width: 40px;
+}

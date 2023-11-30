@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    /* width:90%; */
+}
+
+.titulo {
+    display: block;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin: 10px 10px;
+}
+
+.grid-container,
+.titulo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-container .tarjeta {
+    background-color: rgb(29, 28, 28);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.grid-container .tarjeta .imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 7px 7px 15px rgba(214, 112, 9, 0.748);
+    width: 90%;
+    margin-bottom: 20px;
+    
+}
+
+.grid-container .tarjeta .texto {
+    display: flex;
+    /* width: 100%; */
+    justify-content:space-evenly;
+    align-items:stretch;
+    margin-top: 15px;
+}
+
+.grid-container .tarjeta .texto .Comic-Title,
+.grid-container .tarjeta .texto .Comic-Author {
+    display: block;
+    color: white;
+    margin-left: 10px;
+}
+
+.grid-container .tarjeta button{
+    width: 40%;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: chartreuse;
+    border-collapse: collapse;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right:10px;
+    transition-duration: 0.4s;
+}
+
+.grid-container .tarjeta button:hover {
+    background-color: orange;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;    
+}

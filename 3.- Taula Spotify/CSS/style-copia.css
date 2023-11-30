@@ -1,0 +1,70 @@
+/* ******** Estilos generales de la página  ******** */
+body {
+    background-color:#111313;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* ************  Estilos de la tabla *************** */
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    background-color: teal;
+    text-align: left;
+    color: aliceblue;
+}
+
+/* *******  Estilos encabezado de la tabla  ******* */
+.tabla .numero {
+    width: 20px;
+}
+
+.tabla .titulo {
+    width: 90px;
+}
+
+.tabla .album {
+    width: 200px;
+}
+
+.tabla .fecha {
+    width: 180px;
+}
+
+.tabla .duracion {
+    width: 180px;
+}
+
+tbody.tabla.album,
+tbody.tabla.fecha,
+tbody.tabla.duracion {
+    font-size: 10px;
+    color: darkgray;
+    font-weight: bold;
+}
+/* *******  Estilos fila album  ******* */
+.numero {
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.imagen {
+    width: 70px;
+}
+
+.tema {
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: -50px;
+}
+
+.tema span {
+    display: block;
+    width: 100%;
+    font-size: 0.5rem;
+    color: darkgray;
+}
