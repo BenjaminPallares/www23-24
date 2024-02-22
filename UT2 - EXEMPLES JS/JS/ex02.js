@@ -1,0 +1,1 @@
+alert("Como mola llamar a un JS desde un fichero externo");
