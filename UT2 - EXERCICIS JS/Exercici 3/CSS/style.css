@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+main {
+  margin: 30px 30px;
+  position: relative;
+}
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+
+  .up-left,
+  .up-right,
+  .down-left,
+  .down-right {
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .boton {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+
+  .grid-container .up-left {
+    background-color: red;
+  }
+
+  .grid-container .up-left .boton {
+    display: block;
+    position: absolute;
+    border-collapse: collapse;
+
+    top: 120px;
+    left:450px;
+   
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .grid-container .up-left .boton:hover {
+    background-color: green;
+    width: 45px;
+    height: 35px;
+  }
+
+  .grid-container .up-right{
+    background-color: orange;
+  }
+
+  .grid-container .up-right .boton {
+    display: block;
+    position: absolute;
+    border-collapse: collapse;
+
+    top: 90px;
+    left:1100px;
+
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+  }
+
+  .grid-container .up-right .boton:hover {
+    background-color: yellow;
+    color: black;
+    width: 45px;
+    height: 35px;
+  }
+
+
+  .grid-container .down-left{
+    background-color: yellow;
+  }
+
+  .grid-container .down-left .boton {
+    display: block;
+    position: absolute;
+    border-collapse: collapse;
+
+    top: 410px;
+    left:450px;
+
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+  
+  }
+
+  .grid-container .down-left .boton:hover {
+    background-color: orangered;
+    color: black;
+    width: 45px;
+    height: 35px;
+  }
+
+  .grid-container .down-right {
+    background-color: green;
+  }
+

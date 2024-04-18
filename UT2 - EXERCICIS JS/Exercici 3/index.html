@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3.-EXERCICI DE CADENES</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+    <main class="grid-container">
+
+<!-- / * ************************************************************************** */ -->
+        <div class="up-left">
+            <h1>CONCATENAR</h1>
+            <br>
+            <form>
+                <label for="u-l-cad1">CADENA1</label><br>
+                <input type="text" name="" id="u-l-cad1"><br><br>
+
+                <label for="u-l-cad2">CADENA2</label><br>
+                <input type="text" name="" id="u-l-cad2"><br>
+                <br>
+            </form>
+            <button class="boton" onclick="concatenar()">GO!</button>
+            <p id="result-u-l"></p>
+        </div>
+
+<!-- /* *************************************************************************** */ -->
+
+        <div class="up-right">
+            <h1>LONGITUD</h1><br>
+            <form>
+                <label for="u-r-cad1">CADENA1</label><br>
+                <input type="text" name="" id="u-r-cad1"><br><br>
+            </form>
+
+            <button class="boton" onclick="longitud()">GO!</button>
+            <p id="result-u-r"></p>
+
+        </div>
+
+<!-- /* ********************************************************************** */ -->
+    
+        <div class="down-left">
+            <h1>REEMPLAZAR</h1>
+            <br>
+            <form>
+                <label for="d-l-cad1">CADENA1</label><br>
+                <input type="text" name="" id="d-l-cad"><br><br>
+
+                <label for="d-l-subcad1">SUBCADENA1</label><br>
+                <input type="text" name="" id="d-l-subcad1"><br>
+                <br>
+
+                <label for="d-l-subcad2">SUBCADENA2</label><br>
+                <input type="text" name="" id="d-l-subcad2"><br>
+                <br>
+            </form>
+
+            <button class="boton" onclick="reemplazar()">GO!</button><br>
+            <p id="result-d-l"></p><br>
+        </div>
+
+<!-- /* ************************************************************************* */ -->
+
+        <div class="down-right">
+            <h1>DIVIDIR</h1>
+            <br>
+            <form>
+                <label for="d-r-cad">CADENA</label><br>
+                <input type="text" name="" id="d-r-cad"><br><br>
+
+                <label for="d-r-sep">SEPARADOR</label><br>
+                <input type="text" name="" id="d-r-sep"><br>
+                <br>
+            </form>
+            <button class="boton" onclick="separar()">GO!</button>
+            <p id="result-d-r"></p>
+        </div>
+
+ <!-- /* ************************************************************************ */ -->
+    </main>
+
+    <script src="JS/exercici3.js"></script>
+</body>
+
+</html>
