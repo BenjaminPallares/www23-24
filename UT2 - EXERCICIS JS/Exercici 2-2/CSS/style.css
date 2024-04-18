@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+body {
+    width: 100%;
+    background-image: url("../IMG/fondo2.jpg");
+    background-size: cover;
+}
+
+.cuadro {
+    display: block;
+    margin: 50px;
+    background-color: darkorange;
+    width: 350px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 400px;
+    border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cuadro h1 {
+    font-size: 20px;
+    padding: 20px;
+    color: cornsilk;
+}
+
+.cuadro input {
+    width: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cuadro #texto {
+    margin-top: 15px;
+}
